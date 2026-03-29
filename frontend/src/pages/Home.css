@@ -1,0 +1,29 @@
+.home { padding:2rem; max-width:1200px; margin:0 auto; }
+.search-wrap { margin-bottom:1.5rem; }
+.search-box { display:flex; gap:0.5rem; max-width:600px; margin:0 auto; }
+.search-box input { flex:1; margin:0; border-radius:10px; border:2px solid #e0e7ff; }
+.search-box input:focus { border-color:#4f46e5; }
+.search-box button { border-radius:10px; padding:0.7rem 1.5rem; }
+.cats { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.5rem; }
+.cat { background:#f3f4f6; color:#555; padding:0.4rem 1.2rem; border-radius:20px; font-size:0.85rem; }
+.cat:hover { background:#e0e7ff; color:#4f46e5; }
+.cat.active { background:#4f46e5; color:white; }
+.section-title { font-size:1.5rem; color:#1e1b4b; margin-bottom:1rem; }
+.count { font-size:1rem; color:#888; font-weight:400; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1.5rem; }
+.card { background:white; border-radius:16px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; }
+.card:hover { transform:translateY(-4px); box-shadow:0 8px 24px rgba(79,70,229,0.15); }
+.card-img { background:#eef2ff; font-size:4rem; text-align:center; padding:1.5rem; }
+.card-body { padding:1rem; }
+.badge { font-size:0.72rem; color:#4f46e5; font-weight:600; text-transform:uppercase; }
+.card-body h3 { font-size:1rem; color:#1e1b4b; margin:0.3rem 0; }
+.card-body p { font-size:0.83rem; color:#666; margin-bottom:0.8rem; }
+.card-meta { display:flex; gap:0.8rem; font-size:0.8rem; color:#666; margin-bottom:0.8rem; flex-wrap:wrap; }
+.green { color:#10b981; font-weight:600; }
+.red { color:#ef4444; font-weight:600; }
+.card-footer { display:flex; justify-content:space-between; align-items:center; }
+.price { font-size:1.2rem; font-weight:700; color:#4f46e5; }
+.empty { text-align:center; padding:4rem; color:#888; }
+.empty p { font-size:1.2rem; margin-bottom:1rem; }
+.skeleton { height:320px; background:linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%); background-size:200% 100%; animation:shimmer 1.5s infinite; border-radius:16px; }
+@keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }

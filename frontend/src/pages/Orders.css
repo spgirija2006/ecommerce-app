@@ -1,0 +1,12 @@
+.orders-page { max-width:800px; margin:2rem auto; padding:1rem 2rem; }
+.orders-page h2 { font-size:1.8rem; color:#1e1b4b; margin-bottom:1.5rem; }
+.no-orders { text-align:center; padding:3rem; background:white; border-radius:16px; color:#888; }
+.order-card { background:white; border-radius:16px; padding:1.5rem; margin-bottom:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.08); }
+.order-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; }
+.order-id { font-weight:700; color:#1e1b4b; margin-right:1rem; }
+.order-date { color:#888; font-size:0.85rem; }
+.order-status { padding:0.3rem 0.9rem; border-radius:20px; font-size:0.85rem; font-weight:600; }
+.order-items { border-top:1px solid #f0f0f0; border-bottom:1px solid #f0f0f0; padding:0.8rem 0; margin-bottom:0.8rem; }
+.order-item { display:flex; justify-content:space-between; padding:0.3rem 0; font-size:0.9rem; color:#555; }
+.order-bottom { display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; color:#666; flex-wrap:wrap; gap:0.5rem; }
+.order-total { font-weight:700; color:#4f46e5; font-size:1rem; }

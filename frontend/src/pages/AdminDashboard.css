@@ -1,0 +1,39 @@
+.admin { max-width:1100px; margin:2rem auto; padding:1rem 2rem; }
+.admin-header { margin-bottom:1.5rem; }
+.admin-header h2 { font-size:1.8rem; color:#1e1b4b; margin-bottom:1rem; }
+.admin-stats { display:flex; gap:1rem; flex-wrap:wrap; }
+.stat { background:white; padding:1rem 1.5rem; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.08); font-size:0.95rem; color:#555; }
+.stat b { color:#4f46e5; font-size:1.1rem; }
+.admin-tabs { display:flex; gap:0.5rem; margin-bottom:1.5rem; flex-wrap:wrap; }
+.tab { background:#f3f4f6; color:#555; padding:0.6rem 1.2rem; border-radius:8px; position:relative; }
+.tab:hover { background:#e0e7ff; color:#4f46e5; }
+.tab.active { background:#4f46e5; color:white; }
+.notif { background:#ef4444; color:white; border-radius:50%; padding:0.1rem 0.4rem; font-size:0.7rem; margin-left:0.3rem; }
+.admin-card { background:white; border-radius:16px; padding:2rem; box-shadow:0 2px 12px rgba(0,0,0,0.08); }
+.admin-card h3 { font-size:1.3rem; color:#1e1b4b; margin-bottom:1.5rem; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:0.5rem; }
+.form-grid label, .admin-card > label { display:block; font-weight:600; font-size:0.85rem; color:#555; margin-bottom:0.3rem; }
+.emoji-grid { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem; }
+.emoji-opt { font-size:1.8rem; cursor:pointer; padding:0.4rem; border-radius:8px; border:2px solid transparent; transition:all 0.2s; }
+.emoji-opt:hover { background:#eef2ff; }
+.emoji-opt.selected { border-color:#4f46e5; background:#eef2ff; }
+.preview-card { display:flex; gap:1rem; align-items:center; background:#f8f9ff; border-radius:12px; padding:1rem; margin-bottom:1rem; }
+.add-btn { width:100%; padding:0.9rem; font-size:1rem; border-radius:10px; }
+.product-list { display:flex; flex-direction:column; gap:0.8rem; }
+.product-row { display:flex; align-items:center; gap:1rem; padding:1rem; border:1px solid #f0f0f0; border-radius:10px; }
+.product-icon { font-size:2rem; background:#eef2ff; padding:0.5rem; border-radius:8px; }
+.product-row-info { flex:1; }
+.product-row-info b { display:block; color:#1e1b4b; }
+.product-row-info span { font-size:0.8rem; color:#4f46e5; }
+.product-row-stats { display:flex; gap:1rem; font-size:0.85rem; color:#666; align-items:center; }
+.price-tag { font-weight:700; color:#4f46e5; }
+.del-btn { background:#fee2e2; color:#ef4444; padding:0.4rem 0.8rem; font-size:0.85rem; }
+.order-notif { border:1px solid #e5e7eb; border-radius:12px; padding:1.2rem; margin-bottom:1rem; border-left:4px solid #4f46e5; }
+.notif-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.8rem; }
+.status-pill { padding:0.3rem 0.9rem; border-radius:20px; font-size:0.82rem; font-weight:600; }
+.notif-info p { font-size:0.9rem; color:#555; margin:0.2rem 0; }
+.notif-items { display:flex; gap:0.5rem; flex-wrap:wrap; margin:0.8rem 0; }
+.order-item-tag { background:#eef2ff; color:#4f46e5; padding:0.2rem 0.7rem; border-radius:20px; font-size:0.8rem; }
+.notif-action { display:flex; align-items:center; gap:0.8rem; margin-top:0.8rem; }
+.notif-action label { font-weight:600; font-size:0.85rem; white-space:nowrap; }
+.notif-action select { width:auto; margin:0; padding:0.4rem 0.8rem; }

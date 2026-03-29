@@ -1,0 +1,10 @@
+.navbar { display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; background:#4f46e5; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(0,0,0,0.2); }
+.navbar-brand { font-size:1.4rem; font-weight:700; color:white; }
+.navbar-links { display:flex; gap:1rem; align-items:center; }
+.nav-link { color:white; text-decoration:none; padding:0.4rem 0.8rem; border-radius:6px; font-size:0.95rem; transition:background 0.2s; }
+.nav-link:hover { background:rgba(255,255,255,0.15); }
+.nav-link.active { background:rgba(255,255,255,0.25); font-weight:600; }
+.user-info { color:#c7d2fe; font-size:0.9rem; display:flex; align-items:center; gap:0.4rem; }
+.admin-tag { background:#f59e0b; color:white; font-size:0.7rem; padding:0.1rem 0.5rem; border-radius:20px; font-weight:700; }
+.logout-btn { background:#ef4444; padding:0.4rem 1rem; font-size:0.85rem; }
+.logout-btn:hover { background:#dc2626; }
